@@ -11,6 +11,8 @@ function getCountry(country) {
     .then((response) => response.json())
 }
 
-export default {
+const exportedObject = {
     getCountry
 }
+
+export default  exportedObject;
