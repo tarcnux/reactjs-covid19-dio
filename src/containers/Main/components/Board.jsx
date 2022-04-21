@@ -28,7 +28,7 @@ function Board({ data }) {
             </Grid>
 
             <Grid item xs={12} md={3}>
-                <Card value={getValue(recovered)} label="Total de recuperados" color="##67C887" />
+                <Card value={getValue(recovered)} label="Total de recuperados" color="#67C887" />
             </Grid>
 
         </Grid>

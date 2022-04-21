@@ -5,7 +5,7 @@ import Main from './containers/Main'
 
 function App() {
   return (
-    <StylesProvider injectionFirst>
+    <StylesProvider>
       <CssBaseline />
       <GlobalStyle />
       <Main />
